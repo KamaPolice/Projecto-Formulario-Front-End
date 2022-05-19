@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="Signup-style.css">
+</head>
+<body>
+
+    <div class="amarillopapa">
+        <form action="" method="post">
+            <h2 class="titulo">Sign Up</h2> <hr>
+            
+            <div class="amarillo">
+
+                <label for="name">Username</label>
+                <input class="form" type="text" id="name" name="name"  required>
+    
+                
+                <label for="password">Password</label>
+                <input class="form" type="password" name="password" id="password" placeholder="Must have at least 6 characters" required>
+    
+                
+                <label for="passconfirm">Password Confirm</label>
+                <input class="form" type="password" name="passconfirm" id="passconfirm" required>
+    
+               
+                <label for="email">E-Mail</label>
+                <input class="form" type="email" name="email" id="email" placeholder="Example@email.com" required>
+
+                <label class="check" for="terms">
+                <input id="terms" type="checkbox" name="terms" required>I have read and accept <a href="">terms and conditions.</a> 
+                </label>
+
+            <button class="boton" type="submit"> Register</button>
+
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>

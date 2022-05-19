@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+      background-image: url(https://cdn.pixabay.com/photo/2020/04/16/11/13/background-5050213_960_720.png);
+    background-size: 100%;
+}
+
+.form {display: block;
+    margin: 10px auto;
+    border: 1px solid #4860F0;
+    width: 80%;
+    height: 25px;
+    border-radius: 4px;}
+    
+    form label {display:block;
+        text-align: left;
+        margin: 0 25px;
+        
+    }
+    
+    .titulo {
+        text-align: center;
+        padding-top: 20px;
+        }
+
+        .boton {background-color: #481CD9;
+            border-style: none;
+            color: white;
+            display: block;
+            width: 50%;
+            padding: 10px 15px;
+            margin: 10px auto auto auto ;
+            border-radius: 10px;
+            }
+            
+            hr {color: #4860F0;
+            margin: auto 30px;}
+            
+            .loginpapa {height: 450px;
+                width: 280px;
+                background-color: #F06048;
+                margin: 100px auto;
+                display: block;
+                border-radius: 20px;
+                }
+            
+            .login {margin-top: 20px;}
+               
+               
+            .login input {display: block;
+                margin: 10px auto;
+                border: 1px solid #4860F0;        
+                width: 80%;
+                height: 25px;
+                border-radius: 4px;
+                }
+            
+                .forgot {display: block;
+                text-align: center;
+                margin-top: 15px auto;
+                margin-bottom: 5px;
+                text-decoration: none;}
+            
+                .fb {
+                display:flex;
+                justify-content: center;
+                margin: 10px auto;
+                color: white;
+                padding: 10px;
+                background-color: #4267B2;
+                border-style: none;
+                border-radius: 5px;
+                box-sizing: content-box;
+                }
+            
+                .google {
+                    display:flex;
+                    justify-content: center;
+                    margin: 10px auto;
+                    color: white;
+                    padding: 10px;
+                    background-color: rgb(60, 130, 36);
+                    border-style: none;
+                    border-radius: 5px;
+                    box-sizing: content-box;
+                }
+            
+                .fbimg {margin-left: 5px;}
+            
+                .gimg {margin-left: 5px;}
+            

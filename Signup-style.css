@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+      background-image: url(https://cdn.pixabay.com/photo/2020/04/16/11/13/background-5050213_960_720.png);
+    background-size: 100%;
+    
+}
+
+
+.amarillopapa {height: 500px;
+width: 280px;
+background-color: #E6AC45;
+margin: 100px auto;
+display: block;
+border-radius: 20px;
+}
+
+.form {display: block;
+margin: 10px auto;
+border: 1px solid #4860F0;
+width: 80%;
+height: 25px;
+border-radius: 4px;}
+
+form label {display:block;
+    text-align: left;
+    margin: 0 25px ;   
+}
+
+
+
+.titulo {
+    text-align: center;
+    padding-top: 20px;
+    
+    }
+
+.amarillo { margin: 20px auto;}
+
+.boton {background-color: #481CD9;
+border-style: none;
+color: white;
+display: block;
+width: 50%;
+padding: 10px 15px;
+margin: 20px auto;
+border-radius: 10px;
+}
+
+hr {color: #4860F0;
+margin: auto 30px;}
+
+.check {text-align: center;}
+
+
+
+
+
+
+    
